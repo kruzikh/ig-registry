@@ -1,35 +1,88 @@
 {
-  "comment" : "The order of the feeds does not matter, but the order of the package-restrictions does",
+  "comments" : [
+    "The order of the feeds does not matter, but the order of the package-restrictions does",
+    "Before you register your feed here, check it at https://npm.fhir.org/packages/feed-check"
+  ],
   "servers" : {
     "comment" : "This is the known publicly available servers that crawl this package list and make a conformant packages API available",
     "https://packages.fhir.org" : "Official Package registry (hosted on simplifier.net)",
-    "https://packages2.fhir.org/packages" : "Alternative. Has more packages because it hosts packages associated with non-official releases of FHIR"
+    "https://npm.fhir.org/packages" : "Alternative. Has more packages because it hosts packages associated with non-official releases of FHIR"
   },
   "feeds": [
     {
       "name": "HL7.org FHIR Publications",
-      "url": "http://hl7.org/fhir/package-feed.xml",
-      "errors": "grahame|fhir_org"
+      "url": "https://hl7.org/fhir/package-feed.xml",
+      "errors": "grahame|fhir_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "HL7.org CDA Publications",
-      "url": "http://hl7.org/cda/stds/package-feed.xml",
-      "errors": "grahame|fhir_org"
+      "url": "https://hl7.org/cda/stds/package-feed.xml",
+      "errors": "grahame|fhir_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "HL7.org Cross-Product Publications",
-      "url": "http://hl7.org/xprod/ig/package-feed.xml",
-      "errors": "grahame|fhir_org"
+      "url": "https://hl7.org/xprod/ig/package-feed.xml",
+      "errors": "grahame|fhir_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "HL7.org EHR-S Publications",
-      "url": "http://hl7.org/ehrs/package-feed.xml",
-      "errors": "grahame|fhir_org"
+      "url": "https://hl7.org/ehrs/package-feed.xml",
+      "errors": "grahame|fhir_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "Common HL7 Terminology",
       "url": "http://terminology.hl7.org/package-feed.xml",
-      "errors": "utg|hl7_org"
+      "errors": "utg|hl7_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "CDS-Hooks",
@@ -38,27 +91,57 @@
     },
     {
       "name": "FHIR Foundation Guides",
-      "url": "http://fhir.org/guides/package-feed.xml",
-      "errors": "grahame|fhir_org"
+      "url": "https://fhir.org/guides/package-feed.xml",
+      "errors": "grahame|fhir_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "FHIR Foundation Support Packages",
-      "url": "http://fhir.org/packages/package-feed.xml",
-      "errors": "grahame|fhir_org"
+      "url": "https://fhir.org/packages/package-feed.xml",
+      "errors": "grahame|fhir_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "FHIR Foundation Publishing Templates",
-      "url": "http://fhir.org/templates/package-feed.xml",
-      "errors": "grahame|fhir_org"
+      "url": "https://fhir.org/templates/package-feed.xml",
+      "errors": "grahame|fhir_org",
+      "signing": {
+        "required": false,
+        "keys": [
+          {
+            "keyid": "SHA256:Q3zDIk1TnsMiwZmHvpV3bLW7tfMW5ShJljB8qpnIbSc=",
+            "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaoVLet5WG+OxjYVd7yFYCXUS6UI08g1tllYZIgwDEymj+lKmqntW84SgRoIBGu2DWDh8xg6V5OOd1s9g4loblw==",
+            "expires": null
+          }
+        ]
+      }
     },
     {
       "name": "HL7 Australia",
-      "url": "http://hl7.org.au/fhir/package-feed.xml",
+      "url": "https://hl7.org.au/fhir/package-feed.xml",
       "errors": "brett_esler|oridashi_com_au "
     },
     {
       "name": "HL7 Switzerland",
-      "url": "http://fhir.ch/package-feed.xml",
+      "url": "https://fhir.ch/package-feed.xml",
       "errors": "oliver_egger|ahdis_ch"
     },
     {
@@ -130,6 +213,11 @@
       "name": "HL7 Germany",
       "url": "https://ig.fhir.de/igs/package-feed.xml",
       "errors": "cto|hl7_de"
+    },
+    {
+      "name": "cognovis GmbH",
+      "url": "https://fhir.cognovis.de/dental-core/package-feed.xml",
+      "errors": "fhir|cognovis_de"
     },
     {
       "name": "Estonian FHIR Publications",
@@ -500,6 +588,10 @@
     },
     {
       "mask": "ans.fr.template*",
+      "feeds": [ "https://fhir.org/templates/package-feed.xml" ]
+    },
+  	{
+      "mask": "ans.cda.fr.template*",
       "feeds": [ "https://fhir.org/templates/package-feed.xml" ]
     },
 	{

@@ -25,11 +25,11 @@
     },
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU9",
-      "ig-version" : "9.0.0",
-      "package" : "hl7.fhir.us.core#9.0.0",
+      "name" : "STU10 Ballot",
+      "ig-version" : "10.0.0-ballot",
+      "package" : "hl7.fhir.us.core#10.0.0-ballot",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/core/STU9"
+      "url" : "http://hl7.org/fhir/us/core/10.0.0-202701-ballot"
     }]
   },
   {
@@ -2033,10 +2033,10 @@
     "product" : ["fhir"],
     "editions" : [{
       "name" : "STU 2",
-      "ig-version" : "2.0.0",
-      "package" : "hl7.fhir.uv.phd#2.0.0",
+      "ig-version" : "2.0.1",
+      "package" : "hl7.fhir.uv.phd#2.0.1",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/phd/STU2"
+      "url" : "http://hl7.org/fhir/uv/phd/2.0.1"
     }]
   },
   {
@@ -2586,18 +2586,11 @@
     "language" : ["en"],
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU2",
-      "ig-version" : "2.0.0",
-      "package" : "hl7.fhir.uv.cpg#2.0.0",
+      "name" : "STU 3 Ballot",
+      "ig-version" : "3.0.0-ballot",
+      "package" : "hl7.fhir.uv.cpg#3.0.0-ballot",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/cpg/STU2"
-    },
-    {
-      "name" : "STU 1",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.uv.cpg#1.0.0",
-      "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/uv/cpg/STU1"
+      "url" : "http://hl7.org/fhir/uv/cpg/3.0.0-202701-ballot"
     }]
   },
   {
@@ -5354,11 +5347,11 @@
     "canonical" : "https://nhicore.nhi.gov.tw/empd",
     "ci-build" : "https://build.fhir.org/ig/TWNHIFHIR/empd",
     "editions" : [{
-      "name" : "STU0.2.1",
-      "ig-version" : "0.2.1",
-      "package" : "tw.gov.mohw.nhi.empd#0.2.1",
+      "name" : "STU0.2.2",
+      "ig-version" : "0.2.2",
+      "package" : "tw.gov.mohw.nhi.empd#0.2.2",
       "fhir-version" : ["4.0.1"],
-      "url" : "https://nhicore.nhi.gov.tw/empd/0.2.1"
+      "url" : "https://nhicore.nhi.gov.tw/empd/0.2.2"
     }]
   },
   {
@@ -5717,11 +5710,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/emedicinal-product-info",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU1",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.uv.emedicinal-product-info#1.0.0",
+      "name" : "STU 2 Ballot",
+      "ig-version" : "2.0.0-ballot",
+      "package" : "hl7.fhir.uv.emedicinal-product-info#2.0.0-ballot",
       "fhir-version" : ["5.0.0"],
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/STU1"
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/2.0.0-202701-ballot"
     }]
   },
   {
@@ -6330,11 +6323,11 @@
     "ci-build" : "http://build.fhir.org/ig/HL7/fhir-us-ndh",
     "product" : ["fhir"],
     "editions" : [{
-      "name" : "STU1",
-      "ig-version" : "1.0.0",
-      "package" : "hl7.fhir.us.ndh#1.0.0",
+      "name" : "STU2 Ballot",
+      "ig-version" : "2.0.0-ballot",
+      "package" : "hl7.fhir.us.ndh#2.0.0-ballot",
       "fhir-version" : ["4.0.1"],
-      "url" : "http://hl7.org/fhir/us/ndh/STU1"
+      "url" : "http://hl7.org/fhir/us/ndh/2.0.0-202701-ballot"
     }]
   },
   {
@@ -10140,7 +10133,7 @@
     "country" : "de",
     "language" : ["de", "en"],
     "canonical" : "https://fhir.cognovis.de/dental",
-    "ci-build" : "https://cognovis.github.io/fhir-dental-de",
+    "ci-build" : "https://fhir.cognovis.de/dental",
     "editions" : [{
       "name" : "STU1",
       "ig-version" : "0.35.0",
@@ -10158,14 +10151,14 @@
     "country" : "de",
     "language" : ["de"],
     "canonical" : "https://fhir.cognovis.de/praxis",
-    "ci-build" : "https://cognovis.github.io/fhir-praxis-de",
+    "ci-build" : "https://fhir.cognovis.de/praxis",
     "product" : ["fhir"],
     "editions" : [{
       "name" : "STU1",
       "ig-version" : "0.62.1",
       "fhir-version" : ["4.0.1"],
       "package" : "de.cognovis.fhir.praxis#0.62.1",
-      "url" : "https://cognovis.github.io/fhir-praxis-de"
+      "url" : "https://fhir.cognovis.de/praxis"
     }]
   },
   {
@@ -10724,6 +10717,46 @@
       "package" : "hl7.fhir.uv.oo-incubator#0.1.0-snapshot",
       "fhir-version" : ["6.0.0"],
       "url" : "http://hl7.org/fhir/uv/oo-incubator/0.1.0-202610-snapshot"
+    }]
+  },
+  {
+    "name" : "DEMo Demographic Data Collection",
+    "category" : "Administration",
+    "npm-name" : "hl7.fhir.us.demographic-collect",
+    "description" : "Standardized FHIR questionnaires and value sets for collecting granular patient demographic data, including race and ethnicity, language, sexual orientation and gender identity, pronouns, relationship status, disability, military service, and spiritual considerations. Developed through the AHIP, Civitas, and HL7 DEMo Initiative.",
+    "authority" : "HL7",
+    "country" : "us",
+    "language" : ["en"],
+    "history" : "http://hl7.org/fhir/us/demographic-collect/history.html",
+    "canonical" : "http://hl7.org/fhir/us/demographic-collect",
+    "ci-build" : "http://build.fhir.org/ig/HL7/demo-collect",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.us.demographic-collect#1.0.0-ballot",
+      "fhir-version" : ["4.0.1"],
+      "url" : "http://hl7.org/fhir/us/demographic-collect/1.0.0-202701-ballot"
+    }]
+  },
+  {
+    "name" : "Regulatory Workflows and Interactions - pharma",
+    "category" : "Pharmaceutical",
+    "npm-name" : "hl7.fhir.uv.rwi-pharma",
+    "description" : "Regulatory exchange is globally fragmented across authorities, product lines, procedures, and technologies. This IG establishes a common Task- and Subscription-based framework for regulatory workflows and interactions, enabling them to be exchanged, tracked, and acted upon with machine-readable status and event-driven notifications.",
+    "authority" : "HL7",
+    "country" : "uv",
+    "history" : "http://hl7.org/fhir/uv/rwi-pharma/history.html",
+    "language" : ["en"],
+    "canonical" : "http://hl7.org/fhir/uv/rwi-pharma",
+    "ci-build" : "http://build.fhir.org/ig/HL7/reg-workflow-pharma",
+    "product" : ["fhir"],
+    "editions" : [{
+      "name" : "STU 1 Ballot",
+      "ig-version" : "1.0.0-ballot",
+      "package" : "hl7.fhir.uv.rwi-pharma#1.0.0-ballot",
+      "fhir-version" : ["5.0.0"],
+      "url" : "http://hl7.org/fhir/uv/rwi-pharma/1.0.0-202701-ballot"
     }]
   }]
 }
